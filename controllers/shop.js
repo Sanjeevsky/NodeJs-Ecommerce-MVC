@@ -49,7 +49,7 @@ exports.getIndex = (req, res, next) => {
       console.log(err);
     });
 };
-
+//get all products in a cart
 exports.getCart = (req, res, next) => {
   req.user
     .getCart()
